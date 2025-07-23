@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>ラッキーアニマル診断</title>
+  <style>
+    body {
+      font-family: "Arial", sans-serif;
+      text-align: center;
+      padding: 50px;
+      background-color: #fffaf5;
+    }
+    #result {
+      font-size: 2rem;
+      margin-top: 30px;
+    }
+    button {
+      font-size: 1.5rem;
+      padding: 10px 20px;
+      background-color: #f4c430;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #e5b122;
+    }
+  </style>
+</head>
+<body>
+  <h1>🐾 今日のラッキーアニマルは？ 🐾</h1>
+  <button onclick="showAnimal()">診断する！</button>
+  <div id="result"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
